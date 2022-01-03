@@ -52,18 +52,19 @@
                     	     &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
-//                gui_layer {
+                gui_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB|  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |     |     | DEL |
 // | CTRL|     |     |     |     |     |   |     |     |     |     |     |      |
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | SPC |     | ESC |   | ENT |     | ALT |
-//                        bindings = <
-//   &kp TAB    &kp LGUI(N1)       &kp LGUI(N2)       &kp LGUI(N3)       &kp LGUI(N4)       &kp LGUI(N5)         &kp LGUI(N6)   &kp LGUI(N7)   &trans &trans    &LGUI(P) &trans
-//   &kp LCTRL &bt BT_SEL 1  &bt BT_SEL 2 &kp LGUI(D) &bt BT_SEL 3 &bt BT_SEL 4   &trans &kp LGUI(LEFT) &kp LGUI(DOWN) &kp LGUI(UP) &kp LGUI(RIGHT) &trans
-//   &kp LSHFT  &kp F1       &kp F2       &kp F3       &kp F4       &kp F5         &kp F6 &kp F7   &kp F8   &kp F9 &kp F10   &kp F11
-//
-//                        >;
-//                };
+                        bindings = <
+   &kp TAB    &kp LGUI(N1)       &kp LGUI(N2)       &kp LGUI(N3)       &kp LGUI(N4)       &kp LGUI(N5)         &kp LGUI(N6)   &kp LGUI(N7)   &trans &trans    &LGUI(P) &trans
+   &kp LCTRL &bt BT_SEL 1  &bt BT_SEL 2 &kp LGUI(D) &bt BT_SEL 3 &bt BT_SEL 4   &trans &kp LGUI(LEFT) &kp LGUI(DOWN) &kp LGUI(UP) &kp LGUI(RIGHT) &trans
+   &kp LSHFT  &kp F1       &kp F2       &kp F3       &kp F4       &kp F5         &kp F6 &kp F7   &kp F8   &kp F9 &kp F10   &kp F11
+                                                      &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+
+                        >;
+                };
         };
 };
